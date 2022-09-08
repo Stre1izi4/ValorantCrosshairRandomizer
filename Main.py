@@ -1,8 +1,5 @@
 import random
 import pyperclip
-def rgb_to_hex(r, g, b):
-  return ('{:X}{:X}{:X}').format(r, g, b)
-
 def crosshairgen():
     color = ''.join([random.choice('0123456789ABCDEF') for j in range(6)])
     outline = random.randint(0,1)
